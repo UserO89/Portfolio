@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.local
+*.tsbuildinfo
+portfolio-context/
+test-results/
+.playwright/
+CONTENT_REVIEW.md

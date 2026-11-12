@@ -1,0 +1,423 @@
+[
+  {
+    "id": "llm-integration",
+    "name": "LLM Integration",
+    "category": "AI & LLM Systems",
+    "status": "Practiced",
+    "evidence": ["project.egrant"],
+    "explanation": "Worked on the language-model provider and orchestration interface in the Python AI service for the eGrant prototype."
+  },
+  {
+    "id": "ocr-integration",
+    "name": "OCR Integration",
+    "category": "AI & LLM Systems",
+    "status": "Practiced",
+    "evidence": ["project.egrant"],
+    "explanation": "Normalized OCR service contract and page/evidence handling in the AI processing workflow."
+  },
+  {
+    "id": "structured-extraction",
+    "name": "Structured Data Extraction",
+    "category": "AI & LLM Systems",
+    "status": "Practiced",
+    "evidence": ["project.egrant"],
+    "explanation": "Processed document information into structured fields in eGrant, retaining OCR page/source references and checks to support validation and human review."
+  },
+  {
+    "id": "rag",
+    "name": "RAG Architecture",
+    "category": "AI & LLM Systems",
+    "status": "Exploring",
+    "evidence": ["project.uniai"],
+    "explanation": "Researching retrieval-augmented answers over official university information; not a deployed pipeline."
+  },
+  {
+    "id": "embeddings",
+    "name": "Embeddings",
+    "category": "AI & LLM Systems",
+    "status": "Exploring",
+    "evidence": ["project.uniai"],
+    "explanation": "Research direction for document retrieval and semantic search; no verified implementation."
+  },
+  {
+    "id": "dataset-import",
+    "name": "Data Import & Processing",
+    "category": "Data & Databases",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Implemented import and processing flow for CSV/TXT tabular datasets."
+  },
+  {
+    "id": "data-validation",
+    "name": "Data Validation",
+    "category": "Data & Databases",
+    "status": "Practiced",
+    "evidence": ["project.dataviz", "project.egrant"],
+    "explanation": "Built dataset validation/normalization in DataViz and extracted-data checking in eGrant."
+  },
+  {
+    "id": "semantic-inference",
+    "name": "Semantic Type Inference",
+    "category": "Data & Databases",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Profiled dataset columns and inferred semantic types/roles with caution around identifiers and ordinals."
+  },
+  {
+    "id": "data-visualization",
+    "name": "Data Visualization (ECharts)",
+    "category": "Data & Databases",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Built interactive data visualization with Apache ECharts in the thesis application, connecting dataset exploration to chart-driven views."
+  },
+  {
+    "id": "statistics",
+    "name": "Descriptive Statistics",
+    "category": "Data & Databases",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Implemented/connected descriptive statistical views over imported datasets."
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Backend & APIs",
+    "status": "Practiced",
+    "evidence": ["project.egrant"],
+    "explanation": "Developed Python AI-orchestrator service logic and tests."
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "category": "Backend & APIs",
+    "status": "Practiced",
+    "evidence": ["project.egrant"],
+    "explanation": "Built/maintained FastAPI extraction, validation and mapping service endpoints/contracts."
+  },
+  {
+    "id": "php",
+    "name": "PHP",
+    "category": "Backend & APIs",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Implemented server-side thesis application functionality in PHP."
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel",
+    "category": "Backend & APIs",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Built the Laravel API/application backend for the bachelor thesis."
+  },
+  {
+    "id": "rest-api",
+    "name": "REST API Design & Integration",
+    "category": "Backend & APIs",
+    "status": "Practiced",
+    "evidence": ["project.dataviz", "project.egrant"],
+    "explanation": "Built API-backed application features and worked on explicit request/response contracts and compatibility between the OCR, AI, and backend services in eGrant."
+  },
+  {
+    "id": "schema-mapping",
+    "name": "Schema Mapping",
+    "category": "Backend & APIs",
+    "status": "Practiced",
+    "evidence": ["project.egrant"],
+    "explanation": "Implemented form-aware mapping of extracted values to BBSK form schema/tag fields."
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Frontend Development",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Developed interactive browser-facing functionality in the Vue application."
+  },
+  {
+    "id": "vue3",
+    "name": "Vue 3",
+    "category": "Frontend Development",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Built Vue 3 SPA interfaces for data exploration and visualization."
+  },
+  {
+    "id": "html-css",
+    "name": "HTML & CSS",
+    "category": "Frontend Development",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Implemented application layouts and interactive UI styling."
+  },
+  {
+    "id": "manual-testing",
+    "name": "Manual Testing",
+    "category": "Quality Assurance & Testing",
+    "status": "Practiced",
+    "evidence": ["experience.uniqa", "project.dataviz"],
+    "explanation": "Professional manual testing of enterprise applications at UNIQA: execute scenarios, compare observed behavior with expectations, identify problems, and communicate findings. Also functionally tested the thesis application."
+  },
+  {
+    "id": "tosca",
+    "name": "Tricentis Tosca",
+    "category": "Quality Assurance & Testing",
+    "status": "Practiced",
+    "evidence": ["experience.uniqa"],
+    "explanation": "Works with tests and test automation in Tricentis Tosca as part of enterprise QA at UNIQA; no automation-framework design is claimed."
+  },
+  {
+    "id": "phpunit",
+    "name": "PHPUnit",
+    "category": "Quality Assurance & Testing",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Backend testing tools used in the thesis codebase."
+  },
+  {
+    "id": "vitest",
+    "name": "Vitest",
+    "category": "Quality Assurance & Testing",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Frontend testing tools used in the thesis codebase."
+  },
+  {
+    "id": "qa-planning",
+    "name": "QA Planning",
+    "category": "Quality Assurance & Testing",
+    "status": "Practiced",
+    "evidence": ["project.resort"],
+    "explanation": "Planned sprint-linked testing work, smoke/regression coverage, and acceptance checks for Resort Empire."
+  },
+  {
+    "id": "integration-testing",
+    "name": "Integration/Contract Testing",
+    "category": "Quality Assurance & Testing",
+    "status": "Practiced",
+    "evidence": ["project.egrant"],
+    "explanation": "Tested contract behavior and compatibility across AI-orchestrator/extraction/mapping components."
+  },
+  {
+    "id": "git",
+    "name": "Git & GitHub",
+    "category": "DevOps & Developer Tools",
+    "status": "Practiced",
+    "evidence": [
+      "project.uniai",
+      "project.egrant",
+      "project.resort",
+      "project.dataviz"
+    ],
+    "explanation": "Uses Git and GitHub across the university AI research, eGrant, Resort Empire, and the data-visualization thesis application. The University AI connection covers research and planning work, without implying a completed AI implementation."
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "DevOps & Developer Tools",
+    "status": "Practiced",
+    "evidence": ["project.egrant"],
+    "explanation": "Used Docker-based local environment in hackathon AI/backend integration."
+  },
+  {
+    "id": "jira",
+    "name": "Jira",
+    "category": "Engineering & Delivery",
+    "status": "Practiced",
+    "evidence": ["project.resort", "experience.uniqa"],
+    "explanation": "Uses Jira in professional QA work at UNIQA and for sprint, backlog, and task organization in Resort Empire."
+  },
+  {
+    "id": "scrum",
+    "name": "Scrum & Sprint Planning",
+    "category": "Engineering & Delivery",
+    "status": "Practiced",
+    "evidence": ["project.resort"],
+    "explanation": "Participates in Agile/Scrum-style planning for Resort Empire, organizing backlog and sprint scope, breaking down work, and prioritizing actionable tasks."
+  },
+  {
+    "id": "test-case-design",
+    "name": "Test Design & Documentation",
+    "category": "Quality Assurance & Testing",
+    "status": "Practiced",
+    "evidence": ["experience.uniqa", "project.resort"],
+    "explanation": "Creates and documents tests for expected application behavior at UNIQA. For Resort Empire, prepared test scenarios and acceptance checks as part of QA planning."
+  },
+  {
+    "id": "team-coordination",
+    "name": "Team Coordination",
+    "category": "Engineering & Delivery",
+    "status": "Practiced",
+    "evidence": ["project.resort", "project.egrant"],
+    "explanation": "Organizes work and planning discussions between Resort Empire teammates. In eGrant, collaborates across UI, backend, and AI-service responsibilities; this does not imply leadership of the whole hackathon team."
+  },
+  {
+    "id": "requirements-clarification",
+    "name": "Requirements Clarification",
+    "category": "Engineering & Delivery",
+    "status": "Practiced",
+    "evidence": ["project.resort"],
+    "explanation": "Clarifies project requirements and helps translate goals into actionable tasks for the Resort Empire team."
+  },
+  {
+    "id": "information-retrieval",
+    "name": "Information Retrieval",
+    "category": "AI & LLM Systems",
+    "status": "Exploring",
+    "evidence": ["project.uniai"],
+    "explanation": "Researching how relevant information could be retrieved from official university pages and approved documents. This is a research direction, without a completed retrieval pipeline."
+  },
+  {
+    "id": "llm-evaluation",
+    "name": "LLM Answer Evaluation",
+    "category": "AI & LLM Systems",
+    "status": "Exploring",
+    "evidence": ["project.uniai"],
+    "explanation": "Research planning for assessing answer grounding, source coverage, and unsupported statements in university AI assistance. No completed benchmark or measured accuracy is claimed."
+  },
+  {
+    "id": "ai-orchestration",
+    "name": "AI Orchestration",
+    "category": "AI & LLM Systems",
+    "status": "Exploring",
+    "evidence": ["project.uniai"],
+    "explanation": "Researching how retrieval, language-model calls, and answer checks could be coordinated in the University AI Assistant. This is architecture research, without a deployed orchestration pipeline."
+  },
+  {
+    "id": "llm-output-validation",
+    "name": "LLM Output Validation",
+    "category": "AI & LLM Systems",
+    "status": "Exploring",
+    "evidence": ["project.uniai"],
+    "explanation": "Researching checks for the structure and source support of generated answers in the proposed University AI Assistant. A completed output-validation pipeline is not claimed."
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "category": "Data & Databases",
+    "status": "Practiced",
+    "evidence": ["project.dataviz", "project.egrant"],
+    "explanation": "Used SQL with relational databases in the Data Visualization application and eGrant."
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "category": "Data & Databases",
+    "status": "Practiced",
+    "evidence": ["project.egrant", "project.dataviz"],
+    "explanation": "Used MySQL in the Data Visualization application and the eGrant document-processing project."
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Data & Databases",
+    "status": "Studied",
+    "evidence": [],
+    "explanation": "Studied PostgreSQL and its relational database concepts.",
+    "evidenceState": "unlinked",
+    "evidenceNote": "Project evidence has not been linked yet."
+  },
+  {
+    "id": "relational-design",
+    "name": "Relational Database Design",
+    "category": "Data & Databases",
+    "status": "Practiced",
+    "evidence": ["project.dataviz", "project.egrant"],
+    "explanation": "Applied relational data modeling in the Data Visualization application and eGrant."
+  },
+  {
+    "id": "data-normalization",
+    "name": "Data Cleaning & Normalization",
+    "category": "Data & Databases",
+    "status": "Practiced",
+    "evidence": ["project.dataviz", "project.egrant"],
+    "explanation": "Cleaned and normalized imported tabular values in Data Visualization and extracted document fields in eGrant."
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Data & Databases",
+    "status": "Studied",
+    "evidence": ["project.egrant"],
+    "explanation": "Currently developing MongoDB use in the eGrant project; this work is in progress."
+  },
+  {
+    "id": "microservices",
+    "name": "Microservices Architecture",
+    "category": "Backend & APIs",
+    "status": "Practiced",
+    "evidence": ["project.egrant", "project.dataviz", "project.uniai"],
+    "explanation": "Applied microservices architecture in eGrant and Data Visualization. The University AI Assistant connection is research into proposed service boundaries, not a completed microservices deployment."
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Frontend Development",
+    "status": "Practiced",
+    "evidence": [],
+    "explanation": "Applied experience with TypeScript for typed frontend development.",
+    "evidenceState": "unlinked",
+    "evidenceNote": "Project evidence has not been linked yet."
+  },
+  {
+    "id": "tabulator",
+    "name": "Tabulator",
+    "category": "Frontend Development",
+    "status": "Studied",
+    "evidence": ["project.dataviz"],
+    "explanation": "Used Tabulator for interactive tables and dataset exploration in the Data Visualization application."
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Frontend Development",
+    "status": "Studied",
+    "evidence": [],
+    "explanation": "Applied experience with React for frontend development.",
+    "evidenceState": "unlinked",
+    "evidenceNote": "Project evidence has not been linked yet."
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright",
+    "category": "Quality Assurance & Testing",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Used Playwright for browser testing of the Data Visualization application."
+  },
+  {
+    "id": "cypress",
+    "name": "Cypress",
+    "category": "Quality Assurance & Testing",
+    "status": "Practiced",
+    "evidence": ["project.dataviz"],
+    "explanation": "Used Cypress for browser testing of the Data Visualization application."
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "category": "DevOps & Developer Tools",
+    "status": "Practiced",
+    "evidence": [],
+    "explanation": "Applied experience working with Linux.",
+    "evidenceState": "unlinked",
+    "evidenceNote": "Project evidence has not been linked yet."
+  },
+  {
+    "id": "system-analysis",
+    "name": "System Analysis",
+    "category": "Engineering & Delivery",
+    "status": "Practiced",
+    "evidence": ["experience.uniqa"],
+    "explanation": "System analysis in the context of enterprise application testing, expected behavior, and QA workflows at UNIQA."
+  },
+  {
+    "id": "agile",
+    "name": "Agile",
+    "category": "Engineering & Delivery",
+    "status": "Practiced",
+    "evidence": ["experience.uniqa", "project.resort"],
+    "explanation": "Works within Agile team workflows at UNIQA and participates in iterative planning and delivery in the Resort Empire university team."
+  }
+]
